@@ -1,0 +1,44 @@
+:root {
+    --crema: #faf0ca;
+    --blk: #0d3b66;
+    --orange: #f48B5e;
+    --ordark: #f36c33;
+}
+body{
+    background: var(--crema);
+    color: var(--blk);
+}
+header{
+    background:  var(--crema);
+}
+.titulo{
+    color: var(--blk);
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-a{
+    color: var(--blk);
+    font-weight: 700;
+}
+.anuncio{
+    color: var(--blk);
+    font-weight: 900;
+}
+.video{
+    height: 80vh;
+}
+.btn{
+    background: var(--orange);
+}
+.btn:hover{
+    background: var(--ordark);
+}
+@media (max-width: 768px){
+    .video{
+        height: 45vh !important;
+    }
+    .card{
+        width: 90% !important;
+        margin-left: 5% !important;
+    }
+}
